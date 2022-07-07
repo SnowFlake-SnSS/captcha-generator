@@ -64,7 +64,7 @@ class Captcha {
 		_h = typeof _h !== "number" || _h < 120 ? 120 : _h > 400 ? 400 : _h;
 
 		// Initialize canvas
-		this._canvas = Canvas.createCanvas(400, _h);
+		this._canvas = Canvas.createCanvas(80, _h);
 
 		// Initialize color
 		{
@@ -81,7 +81,7 @@ class Captcha {
 		ctx.globalAlpha = 1;
 		ctx.fillStyle = "white";
 		ctx.beginPath();
-		ctx.fillRect(0, 0, 400, _h);
+		ctx.fillRect(0, 0, 80, _h);
 		ctx.save();
 
 		// Scale down text for size
