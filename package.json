@@ -1,7 +1,7 @@
 {
-	"name": "@SnowFlake/captcha-generator",
-	"version": "1.10.0",
-	"description": "An NPM package to generate custom captcha images",
+	"name": "@snowflake/captcha-generator-custom",
+	"version": "1.10.1",
+	"description": "An NPM package to generate captcha images",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"scripts": {
@@ -14,7 +14,6 @@
 	"nyc": {
 		"all": true
 	},
-	"author": "Varun Patil <radialapps@gmail.com>",
 	"license": "GPL-3.0",
 	"dependencies": {
 		"canvas": "^2.8.0"
